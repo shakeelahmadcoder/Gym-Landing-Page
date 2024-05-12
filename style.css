@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    overflow: hidden;
+} */
+/* utils Classes  */
+.text-center{
+    text-align: center;
+}
+.yel{
+    color: rgb(227 74 56);
+}
+.btn{
+    background-color: rgb(227 74 56);
+    color: white;
+    padding: 9px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.m-y{
+    margin: 20px 0px;
+}
+.buttons{
+    display: flex;
+    gap: 12px;
+}
+.pad{
+    padding: 12px 0px;
+}
+.bold{
+    font-weight: bolder;
+}
+.main-font{
+    font-size: 2.3rem;
+    margin: 30px 0px;
+}
+/* Container  */
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+}
+/* Navigation Bar  */
+.logo{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+/* main  */
+/* section-1 */
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-1 .right img{
+    width: 440px;
+}
+.section-1 .left img{
+    width: 250px;
+}
+.section-1 .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-2 */
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.price-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    border: 2px solid black;
+    padding: 20px 59px;
+    border-radius: 6px;
+}
+
+.box li{
+    list-style: none;
+    margin: 12px 0;
+}
+
+/* section-3 tables  */
+.section3{
+    padding: 122px 0px;
+}
+.plantable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+table{
+    width: 100%;
+    margin: 40px 0px;
+    border-collapse: collapse;
+}
+th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+td{
+    width: 23vw;
+    border-bottom: 2px solid black;
+}
+ 
+
+/* footer  */
+footer{
+    text-align: center;
+}
+
+
+@media (max-width: 765px) {
+   nav{
+    flex-direction: column;
+   }
+   nav ul{
+    flex-direction: column;
+    font-size: 29px;
+    gap: 20px   ;
+   }
+   .section-1{
+    flex-direction: column;
+   }
+   .price-boxes{
+    flex-wrap: wrap;
+   }
+   .logo{
+    font-size: 35px;
+    margin: 20px 0;
+   }
+   .section-1 .right img{
+    width: 340px;
+   }
+}
